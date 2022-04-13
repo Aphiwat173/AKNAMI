@@ -1,0 +1,37 @@
+body{
+    background-image: url(../image/bg.png);
+    font-size: 14px;
+    line-height: 23px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    font-family: poppins,Kanit,sans-serif;
+    position: relative;
+    color: #000;
+}
+.back555{
+    background-color: #000;
+}
+.text-fff{
+    color: #fff;
+}
+a:hover{
+    color: red;
+}
+.img-show{
+    -webkit-border-radius: 5px;
+    transition: all .5s ease;
+    border-radius: 25px;
+    display: block;
+
+}
+a:hover img{
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    box-shadow: 0 px 0 6px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    border-radius: 15px;
+}
